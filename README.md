@@ -19,7 +19,8 @@
 
 ## Install via Terminal
 ```
-curl -s https://raw.githubusercontent.com/animegasan/luci-app-ipinfo/master/install.sh | sh
+wget --no-check-certificate https://github.com/abrarilaviarsy/luci-app-ipinfo/raw/refs/heads/master/ipk/luci-app-ipinfo_1.0.3-20230919_cortex-a53.ipk
+opkg install luci-app-ipinfo_1.0.3-20230919_cortex-a53.ipk
 ```
 
 # Preview
